@@ -1,12 +1,5 @@
 import './App.css';
-
-const Header =()=> {
-	return (
-		<header>
-			<h1>header</h1>
-		</header>
-	);
-}
+import Header from './component/Header';
 
 function App() {
   return (

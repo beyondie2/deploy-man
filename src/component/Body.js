@@ -1,6 +1,11 @@
-function Body(props) {
-	console.log(props);
-	return <div className="body">{props.name}</div>;
-	}
-	export default Body;
+function Body({ children }) {
+	console.log(children);
+	return (
+		<div className="body">
+			{children}
+		</div>
+	);
+}
+
+export default Body;
 	

@@ -1,10 +1,6 @@
-function Body() {
-	const number = 1;
-	return (
-		<div>
-			<h1>body</h1>
-			<h2>{number}</h2>
-		</div>
-	);
-}
-export default Body;
+function Body(props) {
+	console.log(props);
+	return <div className="body">{props.name}</div>;
+	}
+	export default Body;
+	

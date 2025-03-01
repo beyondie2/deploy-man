@@ -1,6 +1,11 @@
-function Body(props) {
-	console.log(props);
-	return <div className="body">{props.name}</div>;
-	}
-	export default Body;
-	
+function Body(){
+  function handleOnClick(){
+    alert("버튼을 클릭하셨군요, Thank you!");
+  }
+  return (
+    <div className="body">
+      <button onClick={handleOnClick}> 클릭하세요 </button>
+    </div>
+  );
+}
+export default Body;

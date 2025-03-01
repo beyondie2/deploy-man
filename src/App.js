@@ -4,10 +4,11 @@ import Footer from './component/Footer';
 import Header from './component/Header';
 
 function App() {
+  const name = "이정환";
   return (
     <div className="App">
       <Header />
-      <Body />
+      <Body  name={name}/>
       <Footer />
     </div>
   );
